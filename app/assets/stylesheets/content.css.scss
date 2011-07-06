@@ -1,0 +1,26 @@
+#content {
+	.slide-tag {
+		position: absolute;
+		bottom: 40px;
+		width: 100%;
+		background: #ddd;
+		opacity: .8;
+	}
+	h1 {
+		font-size: 48px;
+		font-family: Helvetica, Arial, sansserif;
+		font-weight: bold;
+		line-height: 70px;
+		color: #000;
+		margin-right: 20px;
+		float: right;
+	}
+	h2 {
+		font-family: 'Special Elite', arial, serif;
+		font-size: 42px;
+		line-height: 82px;
+		color: #d00;
+		margin-right: 20px;
+		float:right;
+	}
+}

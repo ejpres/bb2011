@@ -1,0 +1,37 @@
+body {
+  	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+}
+.tab { 
+	color: #888;
+	font-size: 14px;
+}
+.tab:hover {
+	color: #000;
+}
+.tab.active {
+	color: #ddd;
+}
+
+.block {
+	color: #ddd;
+	font-size: 12px;
+	h2 {
+		font-size: 32px;
+		color: $darkred;
+	}
+}
+#quicklinks {
+	font-size: 11px;
+	li {
+		color: #888;
+	}
+}
+.copyright {
+	text-align:left;
+	color: #888;
+	.link {
+		font-weight: bold;
+		color: $red;
+	}
+}

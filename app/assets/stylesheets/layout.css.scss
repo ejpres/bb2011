@@ -1,0 +1,99 @@
+#container {
+	width: 960px;
+	margin: 0 auto;
+}
+#content {
+	position: relative;
+	clear: both;
+	display: block;
+	margin-bottom: 20px;
+	width: 960px;
+	height: 540px;
+	-moz-box-shadow: 5px 5px 9px #aaa;
+	-webkit-box-shadow: 5px 5px 9px #aaa;
+	box-shadow: 5px 5px 9px #aaa;
+	background: url('slides/rennsport.jpg');
+}
+#tabs {
+	width: 320px;
+	height: 36px;
+	display: block;
+	font-size: 20px;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #444;
+	text-align:center;
+	line-height: 36px;	
+}
+.tab {
+	display: block;
+	height: 36px;
+	width: 120px;
+	float: left;
+	background: url(menu_back.jpg);
+	background-repeat: repeat-x;
+	border-top-left-radius: 10px;	
+	border-top-right-radius: 10px;	
+	text-align: center;
+	overflow: hidden;
+}
+
+.tab.active {
+    background: $red;
+	overflow: visible;
+}
+.image {
+	float: left;
+}
+
+#blocks {
+	clear:both;
+	margin-bottom: 20px;
+	height: 356px;
+}
+.block {
+    display: block;
+	float: left;
+	width: 320px;
+	height: 320px;
+	box-shadow: 5px 5px 9px #aaa;
+}
+.block-inside {
+	display: block;
+	position: relative;
+	width: 320px;
+	height: 320px;
+	background: $red;
+	box-shadow: INSET -6px -3px 6px $darkred;
+}
+
+.name {
+	display: block;
+	position: absolute;
+	right: 20px;
+	bottom: 10px;
+}
+.blockwrap {
+	float: left;
+}
+#quicklinks {
+	margin: 0 0px 20px 20px;
+	-webkit-column-gap: 3%;
+	-webkit-column-count: 6;
+}
+footer {
+	display:block;
+	clear:both;
+	width: 960px;
+	height: 36px;
+	margin-bottom: 20px;
+	text-align: center;
+	line-height: 36px;
+	background: $red;
+	color: #DDD;
+	-moz-box-shadow: 5px 5px 9px #aaa;
+	-webkit-box-shadow: 5px 5px 9px #aaa;
+	box-shadow: 5px 5px 9px #aaa;	
+}
+.footer-inside {
+	box-shadow: INSET -6px -3px 6px $darkred;
+}
